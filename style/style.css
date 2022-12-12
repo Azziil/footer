@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.footer  {   
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 164px;
+    background: black;
+    
+}
+
+
+li {
+    padding-right: 35px;
+}
+
+.ico-wrapper {
+    padding-top: 35px;
+    
+}
+.ico {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
